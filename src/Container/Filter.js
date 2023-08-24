@@ -1,6 +1,5 @@
-import React from 'react';
 import {connect} from 'react-redux';
-import { setfilter,resetfilter} from '../Action';
+import {setfilter,resetfilter} from '../Action';
 
 
 
