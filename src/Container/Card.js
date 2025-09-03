@@ -41,7 +41,6 @@ const Card = ({filter_name,addorder,table_number}) => {
                     {data.map((item)=>(
                         <div className='col-md-3' style={{padding:'10px'}} key={item.id}>
                             <div className='card w-70 h-85' style={{width:'18rem',padding:'3px'}}>
-                                <img src={item.url} alt='FoodItems' className='card-img-top'/>
                                 <div className='card-body'>
                                     <h5 className='card-title'>{item.name}</h5>
                                     <div className='card-text'>Price  ₹{item.prize}</div>

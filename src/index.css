@@ -14,9 +14,10 @@ code {
 
 body {
     font: small-caps bold 16px/2 cursive;
-    background-image: url('D:\Full Stack Web Development\React\react project\restaurant\img.jpg');
-    background-attachment: fixed;
-    background-size: contain;
+    background-image: url('../public/img.jpg');
+    background-attachment: cover;
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 

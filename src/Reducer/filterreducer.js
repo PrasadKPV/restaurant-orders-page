@@ -3,7 +3,7 @@ const initialState = {
 }
 
 export default function  filter_name(state=initialState,action){
-    const {type,payload} =action;
+    const {type,payload} = action ;
 
     switch(type){
         case "SETFILTER" :
